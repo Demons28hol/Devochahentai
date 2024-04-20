@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------------
+#  /\_/\  🌐 This module was loaded through https://t.me/hikkamods_bot
+# ( o.o )  🔓 Not licensed.
+#  > ^ <   ⚠️ Owner of heta.hikariatama.ru doesn't take any responsibilities or intellectual property rights regarding this script
+# ---------------------------------------------------------------------------------
+# Name:bigMostofthetime
+# Author: Ijidishurka
+# Commands:
+# .Penisa
+# ---------------------------------------------------------------------------------
+
+# meta developer: @Gos_HolY
+from asyncio import sleep
+
+from .. import loader
+
+
+@loader.tds
+class devochahentai(loader.Module):
+    strings = {"name": "Песня Большие Пениса Текстом"}
+
+    @loader.owner
+    async def devochahentaicmd(self, message):
+        for _ in range(1):
+            for devochahentai in [
+                "Большие Пениса👉👌",
+                "Стоят Вокруг Меня🌝",
+                "И Спермой Нихуя💦",
+                "Уж Всё Внутри Меня🌚",
+                "Прям Попкой На ПЭНСИЛ🍑",
+                "Я Знаю Ты Любил🌚",
+                "Садиться На Мой Член🌚",
+                "И Сперма По ЩЕКЕЕЕЕЕЕЕ💦🌝",
+            ]:
+                await message.edit(Penisa)
+                await sleep(5.1)
