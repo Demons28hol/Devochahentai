@@ -32,5 +32,5 @@ class penisa(loader.Module):
                 "Садиться На Мой Член🌚",
                 "И Сперма По ЩЕКЕЕЕЕЕЕЕ💦🌝",
             ]:
-                await message.edit(Penisa)
+                await message.edit(penisa)
                 await sleep(5.1)
