@@ -16,7 +16,7 @@ from .. import loader
 
 
 @loader.tds
-class devochahentai(loader.Module):
+class penisa(loader.Module):
     strings = {"name": "Песня Большие Пениса Текстом"}
 
     @loader.owner
