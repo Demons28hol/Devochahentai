@@ -22,7 +22,7 @@ class penisa(loader.Module):
     @loader.owner
     async def penisacmd(self, message):
         for _ in range(1):
-            for devochahentai in [
+            for penisa in [
                 "Большие Пениса👉👌",
                 "Стоят Вокруг Меня🌝",
                 "И Спермой Нихуя💦",
