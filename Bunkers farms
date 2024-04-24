@@ -6,33 +6,37 @@
 # Name:bigMostofthetime
 # Author: Ijidishurka
 # Commands:
-# .farm
+# .farmBunker
 # ---------------------------------------------------------------------------------
 
 # meta developer: @Gos_HolY
 from asyncio import sleep
 
-from .. import loader
-
-
-@loader.tds
-class devochahentai(loader.Module):
-    strings = {"name": "Фарма бфг бункер"}
-
-    @loader.owner
-    async def devochahentaicmd(self, messag
 import random
+
 from datetime import timedelta
+
 import asyncio
+
 import time
+
 from telethon import events
 
 from telethon import functions
+
 from telethon.tl.types import Message
 
 from .. import loader, utils
 
-    strings = {"name": "Bunkerfarm"}
+
+@loader.tds
+class farmBunker(loader.Module):
+    strings = {"name": "Фарма бфг бункер"}
+
+    @loader.owner
+    async def farmBunkercmdcmd(self, message):
+      
+
 
     def __init__(self):
         self.tasks = []
