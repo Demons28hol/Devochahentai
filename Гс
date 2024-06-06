@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------------------------
+#  /\_/\  🌐 This module was loaded through https://t.me/hikkamods_bot
+# ( o.o )  🔓 Not licensed.
+#  > ^ <   ⚠️ Owner of heta.hikariatama.ru doesn't take any responsibilities or intellectual property rights regarding this script
+# ---------------------------------------------------------------------------------
+# Name: voiceGirlsV4
+# Author: Ijidishurka
+# Commands:
+# .Яметекудасай| .кд  | .прив  | .норм | .нуи
+# .хорошо  | .аня | .мне19 | .хз   | .непон
+# .го      | .да  | .нуда  | .что  | .куда
+# .спок    | .кн  | .добр  | .пока | .прощай
+# .сладких | .лан | .пж    | .дядя | .хм
+# ---------------------------------------------------------------------------------
+
+# meta developer: @modwini
+from telethon.tl.functions.channels import JoinChannelRequest
+
+from .. import loader
+
+
+@loader.tds
+class voiceGirls3(loader.Module):
+    """Гс🍓"""
+
+    strings = {"name": "Гс🍓"}
+
+    async def Яметекудасайcmd(self, message):
+        """| Яметекудасай"""
+
+        reply = await message.get_reply_message()
+        await message.delete()
+        await message.client.send_file(
+            message.to_id,
+            "https://t.me/c/2214887064/2",
+            voice_note=True,
+            reply_to=reply.id if reply else None,
+        )
+        return
+
+    async def Идинахуйcmd(self, message):
+        """| Идинахуй"""
+
+        reply = await message.get_reply_message()
+        await message.delete()
+        await message.client.send_file(
+            message.to_id,
+            "https://t.me/c/2214887064/3",
+            voice_note=True,
+            reply_to=reply.id if reply else None,
+        )
+        return
+
+    async def Куcmd(self, message):
+        """| Ку"""
+
+        reply = await message.get_reply_message()
+        await message.delete()
+        await message.client.send_file(
+            message.to_id,
+            "https://t.me/c/2214887064/4",
+            voice_note=True,
+            reply_to=reply.id if reply else None,
+        )
+        return
+
+()
+            voice_note=True,
+            reply_to=reply.id if reply else None,
+        )
+        return
